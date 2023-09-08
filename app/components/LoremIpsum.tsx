@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Stack from "./Stack"
 
 export function LoremIpsum() {
@@ -30,7 +31,10 @@ export function LoremIpsum() {
           Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
           leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
         </p>
-        <h2 className='text-orange-600 font-bold'>Blog</h2>
+        <Link href=''>
+          <h2 className='text-orange-600 font-bold felx flex row justify-end'>Blog</h2>
+        </Link>
+        
         <h2>Blog cards here</h2>
         <p>
           Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
