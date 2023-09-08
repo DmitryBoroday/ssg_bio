@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Stack from "./Stack"
+import {IoIosArrowRoundForward} from 'react-icons/io'
 
 export function LoremIpsum() {
   return (
@@ -31,8 +32,8 @@ export function LoremIpsum() {
           Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
           leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
         </p>
-        <Link href=''>
-          <h2 className='text-orange-600 font-bold felx flex row justify-end'>Blog</h2>
+        <Link href='blog'>
+          <h2 className='text-orange-600 font-bold felx flex row items-center justify-end'>Blog<IoIosArrowRoundForward size={30} /></h2>
         </Link>
         
         <h2>Blog cards here</h2>

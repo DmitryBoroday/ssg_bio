@@ -14,7 +14,7 @@ function page() {
         style={{ scaleX: scrollYProgress }}
       />
       <h1>
-        <code>useScroll</code> demo
+        <code className='text-purple-600'>Hello, I'm </code> Web Developer
       </h1>
       <LoremIpsum />
     </>
