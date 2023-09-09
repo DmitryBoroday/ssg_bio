@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Stack from "./Stack"
-import {IoIosArrowRoundForward} from 'react-icons/io'
+import { IoIosArrowRoundForward } from 'react-icons/io'
+import {RxVideo} from 'react-icons/rx'
 
 export function LoremIpsum() {
   return (
     <>
       <article>
-        <p>
+        <p className='indent-10'>
          An emphasis on responsive design, serverless architecture, optimized voice search, dark mode standardization, and increased focus on cybersecurity
         </p>
         <p>
@@ -16,8 +17,10 @@ export function LoremIpsum() {
           blandit, at iaculis odio ultrices. Nulla facilisi. Vestibulum cursus
           ipsum tellus, eu tincidunt neque tincidunt a.
         </p>
-        <h2 className='text-orange-600 font-bold'>My Stack</h2>
-        <Stack />
+         <Link href='/'>
+          <h2 className='text-orange-600 font-bold felx flex row items-center justify-end gap-1'>video <RxVideo size={20} /></h2>
+        </Link>
+        
         <p>
           In eget sodales arcu, consectetur efficitur metus. Duis efficitur
           tincidunt odio, sit amet laoreet massa fringilla eu.
@@ -32,12 +35,10 @@ export function LoremIpsum() {
           Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
           leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
         </p>
-        <Link href='blog'>
-          <h2 className='text-orange-600 font-bold felx flex row items-center justify-end'>Blog<IoIosArrowRoundForward size={30} /></h2>
-        </Link>
-        
-        <h2>Blog cards here</h2>
-        <p>
+         <h2 className='text-orange-600 font-bold'>My Stack</h2>
+        <Stack />
+       
+        <p className='indent-10'>
           Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
           aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
           sem, sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula
@@ -54,15 +55,13 @@ export function LoremIpsum() {
         <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
         <p>
           Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna.
-          Mauris id mauris vel arcu commodo venenatis. Aliquam eu risus arcu.
+          Mauris idmauris vel arcu commodo venenatis. Aliquam eu risus arcu.
           Proin sit amet lacus mollis, semper massa ut, rutrum mi.
         </p>
-        <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
-        <p>
-          Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
-          leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
-        </p>
-        <h2>Sub-header</h2>
+        <Link href='blog'>
+          <h2 className='text-orange-600 font-bold felx flex row items-center justify-end mt-10'>Blog<IoIosArrowRoundForward size={30} /></h2>
+        </Link>
+        
         <p>
           Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
           aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat

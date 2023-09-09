@@ -5,6 +5,15 @@ import Image from "next/image";
 import Link from 'next/link';
 import {IoIosArrowRoundBack} from 'react-icons/io'
 
+
+export function generateStaticParams() {
+    const posts = getSortedPostsData() // deduped !!
+
+    return posts.map((post) => ({
+        postId: post.id
+    }))
+}
+
 export function generateMetadata({ params }: { params: { postId: string } }) {
     const posts = getSortedPostsData() // deduped !!
     const { postId } = params
@@ -36,27 +45,28 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const pubDate = getFormattedDate(date)
 
     return (
-    <main className='px-6 prose prose-2xl mx-auto'>
-          <section className='w-full mx-auto'>
+    <article>
+          <section className='w-full flex justify-center mx-auto'>
           <Image
-              className='shadow-xl shadow-black mx-auto mt-10 rounded-md'
+              className='sm:w-96 w-full sm:mt-10 mt-0 rounded-md'
               src={coverImage}
               width={600}
               height={400}
               alt='Dmitry'
               priority={true}
           />
-          </section>
-            <h1 className='drop-shadow-md text-3xl mt-4 mb-0'>{title}</h1>
-            <p className='mt-o drop-shadow-md'>
+            </section>
+            <Link href='/blog'>
+              <h2 className='text-orange-600 font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Blog</h2>
+              </Link>
+            <h2 className=''>{title}</h2>
+            <p className=''>
               {pubDate}
-          </p>
-            <article>
+            </p>
+            
               <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-              <Link href='blog' className='fixed top-5 left-5'>
-              <h2 className='text-orange-600 font-bold felx flex row items-center justify-end'><IoIosArrowRoundBack size={30} />Blog</h2>
-        </Link>
-            </article>
-    </main>
+              
+            
+    </article>
   )
 }

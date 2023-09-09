@@ -53,17 +53,12 @@ But Next.js is not just a static site generator and comes with a surprising numb
 **Pros:**
 
 It is the React-based framework with the largest community
-
 Comes with several built-in optimizations and advanced features
-
 Supported by a vast option of libraries
-
 Supports IGS (Incremental Static Regeneration)
-
 Can be deployed on Vercel in minutes effortlessly
 
 **Cons:**
 
 Does not support plugins
-
 Not fully supported by all deployment platforms
