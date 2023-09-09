@@ -1,15 +1,18 @@
 import { getSortedPostsData } from "@/lib/posts"
+import ListItem from "./ListItem"
 
 export default function Posts() {
     const posts = getSortedPostsData()
   return (
-    <section>
-          <h1>Posts Page</h1>
+    <article>
+          <h1>
+              <code className='text-green-300'>blog</code> Posts
+          </h1>
           <ul className='w-full'>
               {posts.map(post => (
-                  JSON.stringify(post)
+                  <ListItem post={post} key={post.id} />
               ))}
           </ul>
-    </section>
+    </article>
   )
 }

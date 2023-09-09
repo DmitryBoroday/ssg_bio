@@ -19,7 +19,7 @@ import Link from 'next/link'
 function Stack() {
 
     return (      
-        <ul className='flex flex-col sm:flex-row gap-2 mt-6 mb-10'>
+        <ul className='flex flex-col sm:flex-row gap-3 mt-6 mb-10'>
             <div className='flex flex-row justify-around sm:justify-between gap-2'>
              <a href='https://nodejs.org/en' target='_blank' className=' hover:text-gray-500 transition-all'><FaNodeJs size={38}/></a>
              <a href='https://www.typescriptlang.org/' target='_blank' className=' hover:text-gray-500 transition-all'><TbBrandTypescript size={40}/></a>
