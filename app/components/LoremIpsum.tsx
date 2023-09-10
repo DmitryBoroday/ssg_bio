@@ -1,7 +1,8 @@
-import Link from "next/link";
-import Stack from "./Stack"
+import Link from 'next/link'
+import Stack from './Stack'
 import { IoIosArrowRoundForward } from 'react-icons/io'
 import {RxVideo} from 'react-icons/rx'
+import Form from './Form'
 
 export function LoremIpsum() {
   return (
@@ -17,11 +18,11 @@ export function LoremIpsum() {
           blandit, at iaculis odio ultrices. Nulla facilisi. Vestibulum cursus
           ipsum tellus, eu tincidunt neque tincidunt a.
         </p>
-         <Link href='/'>
+         <Link href='/video?showDialog=y'>
           <h2 className='text-orange-600 font-bold felx flex row items-center justify-end gap-1'>video <RxVideo size={20} /></h2>
         </Link>
         
-        <p>
+        <p className='indent-10'>
           In eget sodales arcu, consectetur efficitur metus. Duis efficitur
           tincidunt odio, sit amet laoreet massa fringilla eu.
         </p>
@@ -62,7 +63,7 @@ export function LoremIpsum() {
           <h2 className='text-orange-600 font-bold felx flex row items-center justify-end mt-10'>Blog<IoIosArrowRoundForward size={30} /></h2>
         </Link>
         
-        <p>
+        <p className='indent-10'>
           Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
           aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
           sem, sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula
@@ -77,6 +78,8 @@ export function LoremIpsum() {
           ultricies, mollis mi in, euismod dolor.
         </p>
         <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
+        <h2 className='text-orange-600 font-bold felx flex row items-center justify-start'>Message me</h2>
+        <Form />
       </article>
     </>
   );
