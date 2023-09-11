@@ -18,7 +18,7 @@ export function LoremIpsum() {
           blandit, at iaculis odio ultrices. Nulla facilisi. Vestibulum cursus
           ipsum tellus, eu tincidunt neque tincidunt a.
         </p>
-         <Link href='/video?showDialog=y'>
+         <Link href='/video'>
           <h2 className='text-orange-600 font-bold felx flex row items-center justify-end gap-1'>video <RxVideo size={20} /></h2>
         </Link>
         

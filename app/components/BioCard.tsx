@@ -3,11 +3,10 @@ import Link from "next/link"
 import {FaGithub} from 'react-icons/fa'
 
 function Bio() {
-    return (
-        <div
-            className='lg:fixed sm:left-10 lg:bottom-2 fixed bottom-1 px-auto bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-full flex flex-row justify-center gap-2'
-        >
-        <Image
+  return (
+      <div className='sm:fixed sm:left-10 sm:bottom-4 fixed bottom-0 w-full bg-green-200'>
+        <div className='sm:rounded-full flex flex-row justify-around gap-2  bg-gradient-to-r from-indigo-500 to-cyan-500 '>
+         <Image
           className='rounded-full m-1 z-10'
           src='/me_.jpg'
           alt='me'
@@ -23,7 +22,9 @@ function Bio() {
             <div className=' flex flex-col justify-center pr-4'>
                 <Link href=''><FaGithub size={34} className='hover:text-gray-300 transition-all'/></Link>
           </div>
-    </div>
+      </div>
+       
+      </div>     
   )
 }
 

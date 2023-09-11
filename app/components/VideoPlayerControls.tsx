@@ -1,5 +1,5 @@
-import PlayButton from '../public/svg/play.svg'
-import PauseButton from '../public/svg/pause.svg'
+import PlayButton from '../../public/svg/play.svg'
+import PauseButton from '../../public/svg/pause.svg'
 
 interface VideoPlayerControlsProps {
     progress: number;

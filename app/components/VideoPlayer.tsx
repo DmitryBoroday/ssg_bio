@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import VideoPlayerControls from './VideoPlayerControls'
 import { useState, useEffect, useRef } from 'react'
 

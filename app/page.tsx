@@ -1,6 +1,6 @@
 'use client'
 
-import { LoremIpsum } from '@/app/components/LoremIpsum'
+import { LoremIpsum } from '@/app/components/Lorem'
 import {motion, useScroll} from 'framer-motion'
 
 
