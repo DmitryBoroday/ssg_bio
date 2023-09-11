@@ -13,7 +13,7 @@ function page() {
         style={{ scaleX: scrollYProgress }}
         />
          <h1 className='sm:mt-20 am:mb-15 my-10'>
-          <code className='text-purple-600'>Hello, I'm </code> Web Developer
+          <code className='text-indigo-400'>Hello, I'm </code> Web Developer
          </h1>
         <LoremIpsum />
      </>

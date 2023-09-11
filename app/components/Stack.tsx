@@ -34,7 +34,7 @@ function Stack() {
             </div>
             <div className='flex flex-row justify-around gap-2'>
                <a href='https://www.mysql.com/' target='_blank' className=' hover:text-gray-500'><SiMysql size={40}/></a>       
-               <a href='https://firebase.google.com/' className=' hover:text-gray-500'><TbBrandFirebase size={40}/></a>       
+               <a href='https://firebase.google.com/' target='_blank' className=' hover:text-gray-500'><TbBrandFirebase size={40}/></a>       
                <a href='https://www.mongodb.com/' target='_blank' className=' hover:text-gray-500'><SiMongodb size={40}/></a>       
                <a href='https://git-scm.com/' target='_blank' className=' hover:text-gray-500'><BsGit size={40}/></a> 
             </div>

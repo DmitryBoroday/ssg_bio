@@ -14,13 +14,13 @@ function Bio() {
           height={70}
           priority={true}
           />
-          <div className=' flex flex-col justify-center pr-4'>
+          <div className=' flex flex-col justify-center pr-4 '>
               <h3 className='text-bold-xl'>Dmitry Boroday</h3>
               <hr className='text-white'/>
               <h4 className='text-bold'>Web Developer</h4>
           </div>
             <div className=' flex flex-col justify-center pr-4'>
-                <a href='https://github.com/DmitryBoroday?tab=repositories' target='_blank'><FaGithub size={34} className='hover:text-gray-300 transition-all'/></a>
+                <a href='https://github.com/DmitryBoroday?tab=repositories' target='_blank'><FaGithub size={34} className='hover:text-black transition-all'/></a>
           </div>
       </div>
        

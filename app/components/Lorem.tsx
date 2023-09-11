@@ -17,11 +17,12 @@ export function LoremIpsum() {
           Aliquam eleifend nunc a luctus porta. Mauris laoreet augue ut felis
           blandit, at iaculis odio ultrices. Nulla facilisi. Vestibulum cursus
           ipsum tellus, eu tincidunt neque tincidunt a.
-        </p>
-         <Link href='/video'>
-          <h2 className='text-orange-600 font-bold felx flex row items-center justify-end gap-1'>bio <RxVideo size={20} /></h2>
-        </Link>
-        
+        </p>      
+          <div className=' flex items-center   justify-between'>
+          <div></div>
+          <Link href='/video'>
+            <h2 className='text-blue-300 font-bold felx flex row items-center justify-end gap-1 hover:text-gray-400 transition-all'>bio <RxVideo size={20} /></h2> </Link>  
+          </div>               
         <p className='indent-10'>
           In eget sodales arcu, consectetur efficitur metus. Duis efficitur
           tincidunt odio, sit amet laoreet massa fringilla eu.
@@ -36,9 +37,8 @@ export function LoremIpsum() {
           Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
           leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
         </p>
-         <h2 className='text-orange-600 font-bold'>My Stack</h2>
-        <Stack />
-       
+         <h2 className='text-blue-300 font-bold'>My Stack</h2>
+        <Stack />      
         <p className='indent-10'>
           Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
           aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
@@ -59,9 +59,13 @@ export function LoremIpsum() {
           Mauris idmauris vel arcu commodo venenatis. Aliquam eu risus arcu.
           Proin sit amet lacus mollis, semper massa ut, rutrum mi.
         </p>
-        <Link href='blog'>
-          <h2 className='text-orange-600 font-bold felx flex row items-center justify-end mt-10'>Blog<IoIosArrowRoundForward size={30} /></h2>
-        </Link>
+        <div className=' flex items-center   justify-between'>
+          <div></div>
+          <Link href='blog'>
+          <h2 className='text-blue-300 font-bold felx flex row items-center justify-end mt-10 hover:text-gray-400 transition-all'>Blog<IoIosArrowRoundForward size={30} /></h2>
+          </Link>
+        </div>
+       
         
         <p className='indent-10'>
           Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
@@ -78,7 +82,7 @@ export function LoremIpsum() {
           ultricies, mollis mi in, euismod dolor.
         </p>
         <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-        <h2 className='text-orange-600 font-bold felx flex row items-center justify-start'>Message me</h2>
+        <h2 className='text-blue-300 font-bold felx flex row items-center justify-start'>Message me</h2>
         <Form />
       </article>
     </>

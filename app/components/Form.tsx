@@ -21,7 +21,7 @@ export default function Form() {
           rows={10}
           placeholder='Enter your message here...'
           />
-          <button className='rounded-md  hover:bg-gray-800 hover:text-teal-400 font-bold text-sm text-gray-400 transition-all py-2'><h6>Submit</h6></button>
+          <button className='rounded-md  hover:bg-gray-800 hover:text-teal-300 font-bold text-sm text-gray-400 transition-all py-2'><h6>Submit</h6></button>
     </form>
   )
 }
