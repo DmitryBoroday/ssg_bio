@@ -1,17 +1,17 @@
-import Image from "next/image"
-import Link from "next/link"
-import {FaGithub} from 'react-icons/fa'
+import Image from 'next/image'
+import { FaGithub } from 'react-icons/fa'
+import image from '../../public/images/me_.jpg'
 
 function Bio() {
   return (
-      <div className='sm:fixed sm:left-10 sm:bottom-4 fixed bottom-0 w-full bg-green-200'>
-        <div className='sm:rounded-full flex flex-row justify-around gap-2  bg-gradient-to-r from-indigo-500 to-cyan-500 '>
+      <div className='sm:fixed sm:left-10 sm:bottom-4 fixed bottom-1 left-1'>
+        <div className='rounded-full flex flex-row justify-around gap-2  bg-gradient-to-r from-indigo-500 to-cyan-500 '>
          <Image
           className='rounded-full m-1 z-10'
-          src='/me_.jpg'
+          src={image}
           alt='me'
-          width={100}
-          height={100}
+          width={70}
+          height={70}
           priority={true}
           />
           <div className=' flex flex-col justify-center pr-4'>
@@ -20,7 +20,7 @@ function Bio() {
               <h4 className='text-bold'>Web Developer</h4>
           </div>
             <div className=' flex flex-col justify-center pr-4'>
-                <Link href=''><FaGithub size={34} className='hover:text-gray-300 transition-all'/></Link>
+                <a href='https://github.com/DmitryBoroday?tab=repositories' target='_blank'><FaGithub size={34} className='hover:text-gray-300 transition-all'/></a>
           </div>
       </div>
        

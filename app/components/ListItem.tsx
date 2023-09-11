@@ -10,7 +10,7 @@ export default function ListItem({ post }: Props) {
     const { id, title, date, coverImage } = post
     const formattedDate = getFormattedDate(date)
   return (
-    <li className='flex flex-col justify-between md:flex-row   md:items-center gap-5'>
+    <li className='flex flex-col justify-between md:flex-row   md:items-center gap-5 mb-6'>
       <div>        
         <Link
           href={`/posts/${id}`}

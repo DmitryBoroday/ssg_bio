@@ -2,7 +2,7 @@
 title: 'Welcome To The Jamstack'
 date: 'March 7, 2023'
 excerpt: 'In this review, we will be looking at the new Python book from Oriley'
-cover_image: '/images/jamstack.jpg'
+cover_image: '/images/jam.jpg'
 ---
 
 In recent years, Jamstack has become one of the hottest terms in the developer community. More and more people are talking about it, and several technologies have been developed following this trend. Specifically, many of these were built on top of React, which is one of the most appreciated libraries by front-end developers. So, it is time to delve into the relationship between Jamstack and React.

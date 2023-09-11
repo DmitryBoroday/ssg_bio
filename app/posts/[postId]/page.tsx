@@ -56,8 +56,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
               priority={true}
           />
             </section>
-            <Link href='/blog'>
-              <h2 className='text-orange-600 font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Blog</h2>
+            <Link href='/blog' className='hover:text-gray-400 transition-all'>
+              <h2 className='font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Blog</h2>
               </Link>
             <h2 className=''>{title}</h2>
             <p className=''>

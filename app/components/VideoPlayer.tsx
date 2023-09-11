@@ -44,8 +44,8 @@ export default function VideoPlayer() {
   }
 
   return (
-     <div className='relative w-[90%] max-w-6xl mx-auto my-8 rounded-xl overflow-hidden'>
-        <div className='absolute top-4 right-4 z-10'>
+     <div className='relative w-[100%] max-w-6xl mx-auto my-8 rounded-md overflow-hidden'>
+        <div className='absolute top-2 right-2 z-10'>
           <VideoPlayerControls
             progress={videoProgress}
             isPaused={isPaused}

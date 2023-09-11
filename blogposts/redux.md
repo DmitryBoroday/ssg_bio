@@ -2,7 +2,7 @@
 title: 'Redux for Next.js'
 date: 'Feb 20, 2023'
 excerpt: 'About Redux'
-cover_image: '/images/redux.jpg'
+cover_image: '/images/redux.png'
 ---
 
 ## Why should you use Redux with Next.js?

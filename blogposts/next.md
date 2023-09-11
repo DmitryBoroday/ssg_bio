@@ -2,7 +2,7 @@
 title: "What's new in Next.js 13"
 date: 'April 30, 2023'
 excerpt: 'News about Next'
-cover_image: '/images/next13.png'
+cover_image: '/images/next.jpg'
 ---
 
 The announcement was made at the [Next.js](https://beta.nextjs.org/docs) Conf and took the community by storm. Developers worldwide spread the news about the features and goodies announced live on October 25th. Here's a summary of the new features in the App Router:

@@ -2,7 +2,7 @@
 title: 'Vercel'
 date: 'April 5, 2023'
 excerpt: 'About vercel'
-cover_image: '/images/vercel.png'
+cover_image: '/images/vercel.jpg'
 ---
 
 ## Evolution of The Web

@@ -13,8 +13,8 @@ const VideoPlayerControls: React.FC<VideoPlayerControlsProps> = ({
     progress,
     isPaused,
     onPlayPause,
-    size = 48,
-    width = 3
+    size = 42,
+    width = 2
 }) => {
     const center = size / 2
     const radius = center - width
