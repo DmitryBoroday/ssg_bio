@@ -8,7 +8,7 @@ export default function Posts() {
   return (
         <>
           <h1 className='sm:mt-10 sm:mb-15 my-5'>
-              <code className='text-green-300'>blog</code> Posts
+              <code className='text-indigo-300'>blog</code> Posts
       </h1>
       <div className='flex items-center  justify-between h-10'>
         <Link href='/' className='hover:text-gray-400 transition-all'>

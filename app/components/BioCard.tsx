@@ -5,7 +5,7 @@ import image from '../../public/images/me_.jpg'
 function Bio() {
   return (
       <div className='sm:fixed sm:left-10 sm:bottom-4 fixed bottom-1 left-1'>
-        <div className='rounded-full flex flex-row justify-around gap-2  bg-gradient-to-r from-indigo-500 to-cyan-500 '>
+        <div className='rounded-full flex flex-row justify-around gap-2  bg-gradient-to-r from-indigo-500 to-cyan-500'>
          <Image
           className='rounded-full m-1 z-10'
           src={image}
