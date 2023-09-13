@@ -3,6 +3,7 @@ import Stack from './Stack'
 import { IoIosArrowRoundForward } from 'react-icons/io'
 import {RxVideo} from 'react-icons/rx'
 import Form from './Form'
+import Cv from './Cv'
 
 export function LoremIpsum() {
   return (
@@ -43,10 +44,11 @@ export function LoremIpsum() {
        
         
         <p className='indent-10'>
-         At the and of the day it's all about programming, concentration and hard work!
+         At the end of the day we got a lot! Developers wraps their heads around the emergence of many new trends! We have Mobile-First approach with Accelerated Mobile Pages (AMP) powered by AI-Chatbots and Push Notifications! Our PWAs has more accessibility with Voice UI and they looks nice with Dark Mode and smooth Motion-UI.The API-first approach, Serverless Architecture with Static Website Generators tooks place. With help of TypeScript and new Meta-Framworks like NextJS we have a lot of interesting job to do ,guys! 
         </p>
         <h2 className='text-blue-300 font-bold felx flex row items-center justify-start'>Message me</h2>
         <Form />
+        <Cv />
       </article>
     </>
   );
