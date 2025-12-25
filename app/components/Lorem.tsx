@@ -9,9 +9,9 @@ export function LoremIpsum() {
   return (
 
     <article>
-      <h2 className='indent-10 text-lg'>
+      <h2 className='indent-6 text-lg'>
         <code className='font-bold text-gray-200'>
-          Starting coding in 2019, I will build Web Applications for private clients using JavaScript technologies. Diving deeper as a self-employed developer, I build my own projects... I'm comfortable with the React ecosystem, and it seems like business likes it as well!
+          Starting coding in 2019, I was building Web Apps for private clients using JavaScript technologies feeling myself pretty comfortable with React ecosystem and it seems like business likes it as well!
         </code>
       </h2>
       <div className='flex items-center justify-between'>
@@ -19,15 +19,17 @@ export function LoremIpsum() {
         <Link href='/video'>
           <h2 className='text-blue-300 font-bold felx flex row items-center justify-end gap-1 hover:text-gray-400 transition-all'>React intro <RxVideo size={20} /></h2> </Link>
       </div>
-      <h3 className='indent-10 text-lg'>
+      <h3 className='indent-6 text-lg'>
         <code className='font-bold text-gray-200'>
-          Following the latest trends as the world of web development is constantly evolving, we design, create, and optimize websites and applications in response to customer's needs, technological advancements, and the demands of the growing industry which is changing rapidly, dictating new trends that are very exciting and have a great future! So, the industry is growing, and we have a lot of work to do...
+          Following the latest trends as the world of web development is constantly evolving, we design, create, and optimize websites and applications in response to customers needs, technological advancements, and the demands of the growing industry, which is changing rapidly, dictating new trends that are very exciting and have a great future! So, the industry is growing, and we have a lot of work to do...
         </code>
       </h3>
       <p className='text-blue-300 font-bold pt-12 pb-4'>My Stack</p>
       <Stack />
-      <h4 className='indent-10'>
-        As you can see from my stack I'm using the best of the full stack TypeScript ecosystem with <span><a href='https://nextjs.org/' className='text-gray-300 hover:text-gray-400' target='_blank'>NextJS </a></span> on top of <span><a href='https://legacy.reactjs.org/' className='text-gray-300 hover:text-gray-400' target='_blank'>React</a></span>. While developing I'm trying to stay closer to official docs as well as using MVC architectural pattern. Starting with in a <span><a href='https://www.mongodb.com/mern-stack' className='text-gray-300 hover:text-gray-400' target='_blank'>MERN</a></span> stack I feel comfortable with three layer architecture. I am also interested in Jamstack and Island approach with headless CMS integrations!
+      <h4 className='indent-6'>
+        <code className='font-bold text-gray-200'>
+          As you can see from my core stack - it's pretty basic and I believe it's production ready! Of course, these are some of the most used technologies if we talk MERN stack, and we have much more out there... To put it briefly, I try not to overcomplicate things and stick close to the official documentation, following proven patterns! But we are all learning and my goal is to get deeper into the development process by working on interesting projects!
+        </code>
       </h4>
       <div className='flex items-center justify-between'>
         <div></div>
