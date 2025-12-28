@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <article>
       <h1 className='sm:mt-20 am:mb-15 mt-5 mb-10'>
-        <code className='text-indigo-300'>top industry guys </code> talking React )
+        <code className='text-indigo-300'>Top Industry Guys </code> Talking React )
       </h1>
       <div className=' flex items-center  justify-between h-10'>
         <Link href='/'>
-          <h2 className='font-bold hover:text-gray-500 transition-all flex flex-row items-center'><IoIosArrowRoundBack size={30} />back</h2></Link>
+          <code className='font-bold hover:text-gray-500 transition-all flex flex-row items-center'><IoIosArrowRoundBack size={30} />back</code></Link>
         <div>
         </div>
       </div>

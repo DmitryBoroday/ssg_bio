@@ -3,7 +3,7 @@ import { getSortedPostsData, getPostData } from '@/lib/posts'
 import { notFound } from 'next/navigation'
 import Image from "next/image";
 import Link from 'next/link';
-import {IoIosArrowRoundBack} from 'react-icons/io'
+import { IoIosArrowRoundBack } from 'react-icons/io'
 
 
 export function generateStaticParams() {
@@ -17,7 +17,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { postId: string } }) {
     const posts = getSortedPostsData() // deduped !!
     const { postId } = params
-    
+
     const post = posts.find(post => post.id === postId)
 
     if (!post) {
@@ -33,10 +33,10 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 
 
 export default async function Post({ params }: { params: { postId: string } }) {
-    
+
     const posts = getSortedPostsData() //deduped!
     const { postId } = params
-    
+
     if (!posts.find(post => post.id === postId)) {
         return notFound
     }
@@ -45,28 +45,25 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const pubDate = getFormattedDate(date)
 
     return (
-    <article>
-          <section className='w-full flex justify-center mx-auto'>
-          <Image
-              className='sm:w-96 w-full sm:mt-10 mt-0 rounded-md'
-              src={coverImage}
-              width={600}
-              height={400}
-              alt='Dmitry'
-              priority={true}
-          />
+        <article>
+            <section className='w-full flex justify-center mx-auto'>
+                <Image
+                    className='sm:w-96 w-full sm:mt-10 mt-0 rounded-md'
+                    src={coverImage}
+                    width={600}
+                    height={400}
+                    alt='Dmitry'
+                    priority={true}
+                />
             </section>
             <Link href='/blog' className='hover:text-gray-400 transition-all'>
-              <h2 className='font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Blog</h2>
-              </Link>
-            <h2 className=''>{title}</h2>
-            <p className=''>
-              {pubDate}
+                <code className='font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Posts</code>
+            </Link>
+            <h2>{title}</h2>
+            <p>
+                {pubDate}
             </p>
-            
-              <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-              
-            
-    </article>
-  )
+            <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
+        </article>
+    )
 }
