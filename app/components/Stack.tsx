@@ -30,8 +30,7 @@ function Stack() {
             </div>
             <div className='flex flex-row justify-around gap-2'>
                 <a href='https://git-scm.com/' target='_blank' className=' hover:text-orange-600'><BsGit size={40} /></a>
-
-                <a href='https://nextjs.org/' target='_blank' className=' hover:text-gray-600 hover:animate-bounce'><TbBrandNextjs size={40} /></a>
+                <a href='https://nextjs.org/' target='_blank' className=' hover:text-gray-600'><TbBrandNextjs size={40} /></a>
                 <a href='https://expressjs.com/' target='_blank' className='hover:text-sky-600'><TbBrandTypescript size={40} /></a>
                 <a href='https://redux.js.org/' target='_blank' className=' hover:text-violet-600'><TbBrandRedux size={40} /></a>
             </div>
@@ -39,7 +38,7 @@ function Stack() {
                 <a href='https://mdxjs.com/' target='_blank' className=' hover:text-yellow-500'><SiMdx size={40} /></a>
                 <a href='https://socket.io/' target='_blank' className=' hover:text-emerald-300'><SiSocketdotio size={36} /></a>
                 <a href='https://tailwindcss.com/' target='_blank' className=' hover:text-sky-400 transition-all'><TbBrandTailwind size={40} /></a>
-                <a href='https://firebase.google.com/' target='_blank' className=' hover:text-gray-500'><TbBrandFirebase size={40} /></a>
+                <a href='https://firebase.google.com/' target='_blank' className=' hover:text-orange-400'><TbBrandFirebase size={40} /></a>
             </div>
         </ul>
     )
