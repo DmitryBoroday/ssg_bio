@@ -2,6 +2,7 @@
 
 import { LoremIpsum } from '@/app/components/Lorem'
 import { motion, useScroll } from 'framer-motion'
+import AnimatedBtn from './components/AnimatedBtn'
 
 function page() {
   const { scrollYProgress } = useScroll()
@@ -19,6 +20,7 @@ function page() {
         </span>
       </h1>
       <LoremIpsum />
+      <AnimatedBtn />
     </div>
   )
 }

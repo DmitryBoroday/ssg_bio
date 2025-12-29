@@ -4,6 +4,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 import { RxVideo } from 'react-icons/rx'
 import Form from './Form'
 import Cv from './Cv'
+import Teachers from './Teachers'
 
 export function LoremIpsum() {
   return (
@@ -16,8 +17,9 @@ export function LoremIpsum() {
       </h2>
       <div className='flex items-center justify-between'>
         <div></div>
-        <Link href='/video'>
-          <code className='text-blue-300 font-bold felx flex row items-center justify-end gap-1 hover:text-gray-400 transition-all'>React Intro <RxVideo size={20} /></code> </Link>
+        <Link href='/video' className='pt-8 pb-4'>
+          <code className='text-blue-300 font-bold felx flex row items-center justify-end gap-1 hover:text-gray-400 transition-all'>React Intro <RxVideo size={20} /></code>
+        </Link>
       </div>
       <h3 className='indent-6 text-lg'>
         <code className='font-bold text-gray-200 text-xl'>
@@ -32,6 +34,8 @@ export function LoremIpsum() {
             <a href='https://www.mongodb.com/resources/languages/mern-stack' target='_blank'><code className='text-blue-300 font-bold hover:text-gray-400'>MERN</code></a></span> stack, and we have much more out there... To put it briefly, I try not to overcomplicate things and stick close to the official documentation, following proven patterns!
         </code>
       </h4>
+      <p className='text-blue-300 pt-12 pb-4'><code className='font-bold'>My Teachers</code></p>
+      <Teachers />
       <div className='flex items-center justify-between'>
         <div></div>
         <Link href='blog'>

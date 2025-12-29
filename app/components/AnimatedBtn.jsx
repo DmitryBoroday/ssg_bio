@@ -24,10 +24,21 @@ function Box() {
     <motion.div
       initial={{ opacity: 0, scale: 0.1 }}
       animate={{ opacity: 1, scale: 1 }}
-      className='fixed bottom-24 right-[72px] lg:right-[80px] w-[320px] h-[600px] bg-gradient-to-r from-neutral-600 to-zinc-900 rounded-xl z-50 flex flex-col justify-center items-center gap-4 p-4 text-center text-white'
+      className='fixed bottom-24 right-4 lg:right-[80px] w-[92%] lg:w-[320px] h-[600px] bg-gradient-to-r from-neutral-600 to-zinc-900 rounded-2xl z-50 flex flex-col justify-center items-center gap-4 p-2 text-center text-white'
       ref={ref}
     >
-      <div>Content</div>
+      <video
+        className='h-full w-full filter brightness-125 object-cover rounded-xl'
+        loop
+        autoPlay
+        // muted
+        playsInline
+        preload='auto'
+        width='100%'
+        height='100%'
+        poster=''
+        src={'video/bg.mp4'}
+      />
     </motion.div>
   )
 }
@@ -68,7 +79,7 @@ export default function AnimatedBtn() {
           </a>
         </div>
       </div> */}
-      <div className='text-2xl text-white fixed right-2 lg:right-48 bottom-6 w-16 h-16 rounded-full bg-gradient-to-r from-neutral-600 to-zinc-900 z-50 shadow-md'>
+      <div className='text-2xl text-white fixed right-2 lg:right-8 bottom-6 w-16 h-16 rounded-full bg-gradient-to-r from-neutral-600 to-zinc-900 z-50 shadow-md'>
         <motion.button
           whileTap={{ scale: 0.95 }}
           onClick={() => {
@@ -77,7 +88,7 @@ export default function AnimatedBtn() {
           className='w-full h-full rounded-full shadow-zinc-800 shadow-sm lg:shadow-lg flex items-center justify-center'
         >
           {show ? (
-            <IoIosClose />
+            <IoIosClose size={32} />
           ) : (
             <div className='w-16 h-16 p-1'>
               <video
@@ -94,7 +105,6 @@ export default function AnimatedBtn() {
               />
             </div>
           )}
-          {/* {show ? <IoIosClose /> : <IoIosInformation />} */}
         </motion.button>
       </div>
       <AnimatePresence>{show ? <Box /> : null}</AnimatePresence>
