@@ -1,6 +1,6 @@
 'use client'
 
-import { LoremIpsum } from '@/app/components/Lorem'
+import { Content } from '@/app/components/Content'
 import { motion, useScroll } from 'framer-motion'
 import AnimatedBtn from './components/AnimatedBtn'
 
@@ -19,7 +19,7 @@ function page() {
           a Full Stack Web Developer
         </span>
       </h1>
-      <LoremIpsum />
+      <Content />
       <AnimatedBtn />
     </div>
   )

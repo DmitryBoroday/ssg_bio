@@ -6,7 +6,7 @@ import Form from './Form'
 import Cv from './Cv'
 import Teachers from './Teachers'
 
-export function LoremIpsum() {
+export function Content() {
   return (
 
     <article>
@@ -39,7 +39,7 @@ export function LoremIpsum() {
       <div className='flex items-center justify-between'>
         <div></div>
         <Link href='blog'>
-          <code className='text-blue-300 font-bold felx flex row items-center justify-end mt-10 hover:text-gray-400 transition-all'>Blog<IoIosArrowRoundForward size={30} /></code>
+          <code className='text-blue-300 font-bold felx flex row items-center justify-end hover:text-gray-400 transition-all pb-2 pt-8'>Blog<IoIosArrowRoundForward size={30} /></code>
         </Link>
       </div>
       <h6 className='indent-6'>
