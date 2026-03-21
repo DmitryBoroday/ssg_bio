@@ -45,8 +45,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const pubDate = getFormattedDate(date)
 
     return (
-        <article>
-            <section className='w-full flex justify-center mx-auto'>
+        <section className='w-1/2'>
+            <div className='w-full flex justify-center mx-auto'>
                 <Image
                     className='sm:w-96 w-full sm:mt-10 mt-0 rounded-md'
                     src={coverImage}
@@ -55,7 +55,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
                     alt='Dmitry'
                     priority={true}
                 />
-            </section>
+            </div>
             <Link href='/blog' className='hover:text-gray-400 transition-all'>
                 <code className='font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Posts</code>
             </Link>
@@ -64,6 +64,6 @@ export default async function Post({ params }: { params: { postId: string } }) {
                 {pubDate}
             </p>
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        </article>
+        </section>
     )
 }

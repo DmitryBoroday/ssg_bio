@@ -7,15 +7,12 @@ export default function Posts() {
   const posts = getSortedPostsData()
   return (
     <section>
-      <h1 className='sm:mt-10 sm:mb-15 my-5'>
-        <code className='text-indigo-300'>blog</code> Posts
-      </h1>
-      <div className='flex items-center  justify-between h-10'>
-        <Link href='/' className='hover:text-gray-400 transition-all'>
-          <code className='font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Back</code>
-        </Link>
-        <div></div>
-      </div>
+      <Link href='/' className='hover:bg-zinc-800 transition-all flex items-center mt-12 lg:mt-20 w-fit rounded-lg pr-2'>
+        <IoIosArrowRoundBack size={30} />
+        <p className='text-3xl font-bold'>
+          <span className='text-indigo-300'>blog </span>Posts
+        </p>
+      </Link>
       <ul className='w-full mt-10'>
         {posts.map(post => (
           <ListItem post={post} key={post.id} />

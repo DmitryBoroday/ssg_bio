@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence, usePresence } from 'framer-motion'
 
-import { FaGithub } from 'react-icons/fa'
 import gsap from 'gsap'
 import { IoIosClose } from 'react-icons/io'
 
