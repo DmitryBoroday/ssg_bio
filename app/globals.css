@@ -37,6 +37,12 @@ body {
   background-size: 4em 4em;
 }
 
+.teachersBg{
+  background: radial-gradient(circle, #2A2A2C 10%, transparent 11%);
+  background-size: 1em 1em;
+  opacity: 1;
+}
+
 .progress-bar {
   position: fixed;
   top: 0;

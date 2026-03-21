@@ -22,7 +22,7 @@ const data = [
 
 export default function Teachers() {
     return (
-        <section className='py-24 w-[96%] lg:w-5/6 mx-auto'>
+        <section className='py-24 w-[96%] lg:w-5/6 mx-auto teachersBg'>
             <p className='text-4xl text-indigo-300 font-bold mb-4 text-center'>My Teachers</p>
             <div className='w-full h-full flex items-center lg:gap-24 justify-around lg:justify-center py-8'>
                 {data?.map((item, idx) => (
