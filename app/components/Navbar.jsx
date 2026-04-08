@@ -51,17 +51,6 @@ export default function Navbar() {
           </a>
         </nav>
       </div>
-      {/* <nav className='flex items-center gap-3'>
-        {data?.map((item, idx) => (
-          <Link
-            key={idx}
-            href={item.link}
-            className='hover:text-blue-300'
-          >
-            {item.title}
-          </Link>
-        ))}
-      </nav> */}
     </div>
   )
 }
