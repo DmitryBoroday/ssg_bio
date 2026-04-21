@@ -137,9 +137,9 @@ const data = [
 
 export default function Projects() {
     return (
-        <section className='pt-12 lg:pt-20 w-5/6 mx-auto'>
-            <p className='text-4xl text-indigo-300 font-bold mb-4 text-center'>My Projects</p>
-            <div className='grid lg:grid-cols-3 gap-20 lg:gap-4 mt-8'>
+        <section className='pt-12 lg:pt-20 '>
+            <p className='text-4xl text-indigo-300 font-bold mb-4 w-5/6 mx-auto'>My Projects</p>
+            <div className='grid lg:grid-cols-3 gap-20 lg:gap-4 mt-12 w-5/6 mx-auto'>
                 {data?.map((item: any, idx: any) => (
                     <div key={idx}>
                         <a target='_blank' href={item.link} className='flex flex-col gap-2'>
@@ -149,7 +149,7 @@ export default function Projects() {
                                 alt={item.decs}
                                 width={64}
                                 height={64}
-                                className='w-full lg:h-[220px] hover:brightness-125 object-cover rounded-xl'
+                                className='w-full lg:h-[220px] hover:brightness-125 object-cover rounded-xl z-10'
                             />
                             <span className='hover:underline w-5/6 text-zinc-300 text-sm pl-2'>{item.desc}</span>
                         </a>
@@ -161,12 +161,11 @@ export default function Projects() {
                                     className='flex flex-col justify-center items-center gap-2'>
                                     <img
                                         src={stack.ava || 'placeholder'}
-                                        className='rounded-md object-cover h-10 w-full'
+                                        className='rounded-md object-cover h-10 w-full grayscale'
                                     />
                                     <p className='text-xs font-bold text-center'>{stack.title}</p>
                                 </div>
                             ))}
-
                         </div>
                     </div>
                 ))}

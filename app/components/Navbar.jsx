@@ -1,26 +1,6 @@
 'use client'
 
 import { Github, Linkedin } from 'lucide-react'
-import Link from 'next/link'
-
-// const data = [
-//   {
-//     title: 'About',
-//     link: '/video',
-//   },
-//   {
-//     title: 'Projects',
-//     link: '/',
-//   },
-//   {
-//     title: 'Blog',
-//     link: '/blog',
-//   },
-//   {
-//     title: 'Contact',
-//     link: '/',
-//   },
-// ]
 
 export default function Navbar() {
   return (

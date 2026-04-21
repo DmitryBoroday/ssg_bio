@@ -15,7 +15,7 @@ function page() {
   return (
     <main>
       <motion.div
-        className='progress-bar'
+        className='progress-bar z-50'
         style={{ scaleX: scrollYProgress }}
       />
       <div>
