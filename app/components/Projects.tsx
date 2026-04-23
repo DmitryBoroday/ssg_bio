@@ -8,85 +8,62 @@ const data = [
         link: 'https://redis-next-chat.vercel.app/',
         stack: [
             {
-                ava: '/images/nextjs.jpg',
                 title: 'NextJS'
             },
             {
-                ava: '/images/reddis.png',
                 title: 'Reddis'
             },
             {
-                ava: '/images/upstash.png',
                 title: 'Upstash'
             },
             {
-                ava: '/images/pusherjs.png',
                 title: 'PusherJS'
             },
             {
-                ava: '/images/cloudinary.png',
                 title: 'Cloudinary'
             },
             {
-                ava: '/images/kinde.png',
                 title: 'Kinde'
             },
             {
-                ava: '/images/zustand.png',
                 title: 'Zustand'
             },
             {
-                ava: '/images/motion.png',
                 title: 'Framer Motion'
             },
             {
-                ava: '/images/tailwind.png',
-                title: 'Tailwind CSS'
+                title: 'Tailwind'
+            },
+            {
+                title: 'Vercel'
             }
         ]
     },
     {
-        title: 'Project 1',
-        img: 'images/mux.jpg',
-        desc: 'short desc',
-        link: '',
+        title: 'Hygge Hurghada Real Estate',
+        img: 'images/Hygge.avif',
+        desc: 'Real estate website, build for private client with Sanity CMS on backend)',
+        link: 'https://www.hygge-hurghada.com/',
         stack: [
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'ReactJS'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Sanity'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Tailwind'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'i18next'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Framer Motion'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Vercel'
             },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            }
+
         ]
     },
     {
@@ -154,17 +131,9 @@ export default function Projects() {
                             <span className='hover:underline w-5/6 text-zinc-300 text-sm pl-2'>{item.desc}</span>
                         </a>
                         <p className='mb-2 mt-6 text-indigo-300 font-bold'>Stack</p>
-                        <div className='grid grid-cols-4 lg:grid-cols-6 gap-3'>
+                        <div className='grid grid-cols-4 gap-2'>
                             {item.stack.map((stack: any, idx: any) => (
-                                <div
-                                    key={idx}
-                                    className='flex flex-col justify-center items-center gap-2'>
-                                    <img
-                                        src={stack.ava || 'placeholder'}
-                                        className='rounded-md object-cover h-10 w-full grayscale'
-                                    />
-                                    <p className='text-xs font-bold text-center'>{stack.title}</p>
-                                </div>
+                                <p key={idx} className='text-xs font-bold text-center py-1 px-2 rounded-md bg-white/10 text-zinc-400 whitespace-nowrap overflow-x-hidden'>{stack.title}</p>
                             ))}
                         </div>
                     </div>
