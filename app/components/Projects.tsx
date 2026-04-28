@@ -126,7 +126,7 @@ export default function Projects() {
                                 alt={item.decs}
                                 width={64}
                                 height={64}
-                                className='w-full lg:h-[220px] hover:brightness-125 object-cover rounded-xl z-10'
+                                className='w-full h-[220px] lg:h-[260px] hover:brightness-125 object-fill rounded-xl z-10'
                             />
                             <span className='hover:underline w-5/6 text-zinc-300 text-sm pl-2'>{item.desc}</span>
                         </a>
