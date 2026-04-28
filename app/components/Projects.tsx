@@ -11,7 +11,7 @@ const data = [
                 title: 'NextJS'
             },
             {
-                title: 'Reddis'
+                title: 'Redis'
             },
             {
                 title: 'Upstash'
