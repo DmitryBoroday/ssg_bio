@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, useScroll } from 'framer-motion'
-import AnimatedBtn from './components/AnimatedBtn'
+// import AnimatedBtn from './components/AnimatedBtn'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -27,7 +27,7 @@ function page() {
         <Form />
         <Cv />
       </div>
-      <AnimatedBtn />
+      {/* <AnimatedBtn /> */}
     </main>
   )
 }
