@@ -45,7 +45,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const pubDate = getFormattedDate(date)
 
     return (
-        <section className='w-1/2'>
+        <section className='w-1/2 mx-auto'>
             <div className='w-full flex justify-center mx-auto'>
                 <Image
                     className='sm:w-96 w-full sm:mt-10 mt-0 rounded-md'
@@ -59,7 +59,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <Link href='/blog' className='hover:text-gray-400 transition-all'>
                 <code className='font-bold felx flex row items-center justify-start'><IoIosArrowRoundBack size={30} />Posts</code>
             </Link>
-            <h2>{title}</h2>
+            <h2 className='mt-6'>{title}</h2>
             <p>
                 {pubDate}
             </p>
