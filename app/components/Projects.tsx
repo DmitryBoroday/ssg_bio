@@ -67,47 +67,26 @@ const data = [
         ]
     },
     {
-        title: 'Project 1',
-        img: 'images/vercel.jpg',
-        desc: 'short desc',
-        link: '',
+        title: 'Top Escrot Dating Agencies 18+',
+        img: 'images/top-escort.avif',
+        desc: 'Dating platform for adults',
+        link: 'https://www.topescort.pro/',
         stack: [
             {
-                ava: '/images/next.jpg',
                 title: 'NextJS'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Sanity'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Framer Motion'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Vercel'
             },
             {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
+                title: 'Vercel Analytics'
             },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            },
-            {
-                ava: '/images/next.jpg',
-                title: 'NextJS'
-            }
         ]
     },
 ]
