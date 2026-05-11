@@ -2,7 +2,7 @@
 
 const data = [
     {
-        title: 'Reddis Chat App',
+        title: 'Canary Chat | NextJS / Redis Upstash',
         img: 'images/reddisChat.avif',
         desc: 'Real time chat messenger, built with the help of NextJS and Reddis Upstash. You can send text messages as well as images)',
         link: 'https://redis-next-chat.vercel.app/',
@@ -40,7 +40,7 @@ const data = [
         ]
     },
     {
-        title: 'Hygge Hurghada Real Estate',
+        title: 'Hygge Hurghada Real Estate | React / Sanity',
         img: 'images/Hygge.avif',
         desc: 'Real estate website, build for private client with Sanity CMS on backend)',
         link: 'https://www.hygge-hurghada.com/',
@@ -67,7 +67,36 @@ const data = [
         ]
     },
     {
-        title: 'Top Escrot Dating Agencies 18+',
+        title: 'Canary Chat | ReactJS / MongoDB Atlas',
+        img: 'images/linked_poster.avif',
+        desc: 'Real-time chat app, created as a testing platform for chat apps',
+        link: 'https://react-chat-jywk.onrender.com/',
+        stack: [
+            {
+                title: 'React'
+            },
+            {
+                title: 'Express'
+            },
+            {
+                title: 'Node'
+            },
+            {
+                title: 'Socket'
+            },
+            {
+                title: 'JWT'
+            },
+            {
+                title: 'Cloudinary'
+            },
+            {
+                title: 'Render'
+            },
+        ]
+    },
+    {
+        title: 'Dating Agencies Ptlatform',
         img: 'images/top-escort.avif',
         desc: 'Dating platform for adults',
         link: 'https://www.topescort.pro/',
@@ -105,7 +134,7 @@ export default function Projects() {
                                 alt={item.decs}
                                 width={64}
                                 height={64}
-                                className='w-full h-[220px] lg:h-[260px] hover:brightness-125 object-fill rounded-xl z-10'
+                                className='w-full h-full lg:h-[260px] hover:brightness-125 object-fit rounded-xl z-10'
                             />
                             <span className='hover:underline w-5/6 text-zinc-300 text-sm pl-2'>{item.desc}</span>
                         </a>
