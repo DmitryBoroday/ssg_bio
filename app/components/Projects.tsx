@@ -128,7 +128,7 @@ export default function Projects() {
                 {data?.map((item: any, idx: any) => (
                     <div key={idx}>
                         <a target='_blank' href={item.link} className='flex flex-col gap-2'>
-                            <p className='font-bold text-2xl'>{item.title}</p>
+
                             <img
                                 src={item.img}
                                 alt={item.decs}
@@ -136,6 +136,7 @@ export default function Projects() {
                                 height={64}
                                 className='w-full h-full lg:h-[260px] hover:brightness-125 object-fit rounded-xl z-10'
                             />
+                            <p className='font-bold text-2xl'>{item.title}</p>
                             <span className='hover:underline w-5/6 text-zinc-300 text-sm pl-2'>{item.desc}</span>
                         </a>
                         <p className='mb-2 mt-6 text-indigo-300 font-bold'>Stack</p>
