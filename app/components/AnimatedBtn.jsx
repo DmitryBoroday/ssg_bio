@@ -35,7 +35,7 @@ function Box() {
         preload='auto'
         width='100%'
         height='100%'
-        poster={'/videos/big_cut.avif'}
+        poster={'/video/big_cut.avif'}
         src={'video/big_cut.mp4'}
       />
     </motion.div>
