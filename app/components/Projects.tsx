@@ -95,29 +95,29 @@ const data = [
             },
         ]
     },
-    {
-        title: 'Dating Agencies Ptlatform',
-        img: 'images/top-escort.avif',
-        desc: 'Dating platform for adults',
-        link: 'https://www.topescort.pro/',
-        stack: [
-            {
-                title: 'NextJS'
-            },
-            {
-                title: 'Sanity'
-            },
-            {
-                title: 'Framer Motion'
-            },
-            {
-                title: 'Vercel'
-            },
-            {
-                title: 'Vercel Analytics'
-            },
-        ]
-    },
+    // {
+    //     title: 'Dating Agencies Ptlatform',
+    //     img: 'images/top-escort.avif',
+    //     desc: 'Dating platform for adults',
+    //     link: 'https://www.topescort.pro/',
+    //     stack: [
+    //         {
+    //             title: 'NextJS'
+    //         },
+    //         {
+    //             title: 'Sanity'
+    //         },
+    //         {
+    //             title: 'Framer Motion'
+    //         },
+    //         {
+    //             title: 'Vercel'
+    //         },
+    //         {
+    //             title: 'Vercel Analytics'
+    //         },
+    //     ]
+    // },
 ]
 
 export default function Projects() {
