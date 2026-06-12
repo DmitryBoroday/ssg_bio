@@ -27,7 +27,7 @@ function Box() {
       ref={ref}
     >
       <video
-        className='h-full w-full filter brightness-125 object-cover rounded-xl'
+        className='h-full w-full filter brightness-125 object-cover rounded-xl bg-black'
         loop
         autoPlay
         // muted
@@ -35,8 +35,8 @@ function Box() {
         preload='auto'
         width='100%'
         height='100%'
-        poster={'/video/big_cut.avif'}
-        src={'video/big_cut.mp4'}
+        poster={'/video/intro.avif'}
+        src={'video/intro.mp4'}
       />
     </motion.div>
   )
@@ -66,8 +66,8 @@ export default function AnimatedBtn() {
               preload='auto'
               width='100%'
               height='100%'
-              poster='/videos/popularPoster.avif'
-              src={'video/bg.mp4'}
+              poster='/videos/intro.avif'
+              src={'video/sm_intro.mp4'}
             />
           )}
         </motion.button>
