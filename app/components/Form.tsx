@@ -1,7 +1,7 @@
 export default function Form() {
   return (
-    <section className='w-5/6 lg:w-1/2 mx-auto'>
-      <p className='text-indigo-300 text-xl font-bold felx flex row items-center justify-start pt-12 pb-2'>
+    <section className='w-5/6 lg:w-1/2 mx-auto mb-12'>
+      <p className='text-indigo-300 text-xl font-bold flex flex-row items-center justify-start pt-12 pb-2'>
         Message me
       </p>
       <form

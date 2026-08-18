@@ -1,7 +1,8 @@
-import { CiLinkedin } from "react-icons/ci";
-import { IoLogoGithub } from "react-icons/io";
-import Link from 'next/link';
-import { RxVideo } from 'react-icons/rx';
+import { CiLinkedin } from 'react-icons/ci'
+import { IoIosArrowRoundDown, IoLogoGithub } from 'react-icons/io'
+import Link from 'next/link'
+import { RxVideo } from 'react-icons/rx'
+
 
 
 export default function Hero() {
@@ -17,9 +18,12 @@ export default function Hero() {
                         </span>
                     </h1>
                     <h2 className='text-lg font-bold text-gray-200'>I build full-stack production-ready performant web applications, with a focus on clean architecture end performance</h2>
-                    <Link href='/video' className='py-2 px-4 bg-indigo-400 w-fit flex items-center justify-center gap-4 mt-8 rounded-md font-bold hover:bg-cyan-400 transition-all'>
+                    <a href='/files/cv.pdf' download>
+                        <h2 className='bg-indigo-400 w-fit font-bold felx flex row items-center justify-end hover:bg-indigo-500 transition-all p-2 mt-8 rounded-md'>Download Full CV <IoIosArrowRoundDown size={20} /></h2>
+                    </a>
+                    {/* <Link href='/video' className='py-2 px-4 bg-indigo-400 w-fit flex items-center justify-center gap-4 mt-8 rounded-md font-bold hover:bg-cyan-400 transition-all'>
                         Intro to React<RxVideo size={20} />
-                    </Link>
+                    </Link> */}
                 </article>
                 <img
                     src='/images/me_.jpg'

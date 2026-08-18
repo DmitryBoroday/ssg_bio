@@ -21,11 +21,9 @@ function page() {
       <div>
         <Hero />
         <About />
-        <Teachers />
         <Projects />
         <Blog />
         <Form />
-        <Cv />
       </div>
       <AnimatedBtn />
     </main>

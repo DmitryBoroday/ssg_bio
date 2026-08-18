@@ -2,11 +2,14 @@
 
 const data = [
     {
-        title: 'Canary Chat | NextJS / Redis Upstash',
+        title: 'Canary Chat',
         img: 'images/reddisChat.avif',
-        desc: 'Real time chat messenger, built with the help of NextJS and Reddis Upstash. You can send text messages as well as images)',
+        desc: 'A real-time messaging application optimized for low latency using Next.js and Redis(Upstash) for session state. Implement instant event broadcasting via Pusher JS and secured asset delivery via Cloudinary',
         link: 'https://redis-next-chat.vercel.app/',
         stack: [
+            {
+                title: 'TypeScript'
+            },
             {
                 title: 'NextJS'
             },
@@ -42,7 +45,7 @@ const data = [
     {
         title: 'Hygge Hurghada Real Estate | React / Sanity',
         img: 'images/Hygge.avif',
-        desc: 'Real estate website, build for private client with Sanity CMS on backend)',
+        desc: 'Real estate website, built for private client with Sanity CMS on backend)',
         link: 'https://www.hygge-hurghada.com/',
         stack: [
             {
@@ -94,35 +97,12 @@ const data = [
                 title: 'Render'
             },
         ]
-    },
-    // {
-    //     title: 'Dating Agencies Ptlatform',
-    //     img: 'images/top-escort.avif',
-    //     desc: 'Dating platform for adults',
-    //     link: 'https://www.topescort.pro/',
-    //     stack: [
-    //         {
-    //             title: 'NextJS'
-    //         },
-    //         {
-    //             title: 'Sanity'
-    //         },
-    //         {
-    //             title: 'Framer Motion'
-    //         },
-    //         {
-    //             title: 'Vercel'
-    //         },
-    //         {
-    //             title: 'Vercel Analytics'
-    //         },
-    //     ]
-    // },
+    }
 ]
 
 export default function Projects() {
     return (
-        <section className='pt-12 lg:pt-20 '>
+        <section className='py-12 lg:py-20 teachersBg'>
             <p className='text-4xl text-indigo-300 font-bold mb-4 w-5/6 mx-auto'>My Projects</p>
             <div className='grid lg:grid-cols-3 gap-20 lg:gap-4 mt-12 w-5/6 mx-auto'>
                 {data?.map((item: any, idx: any) => (
