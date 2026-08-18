@@ -3,6 +3,8 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence, usePresence } from 'framer-motion'
 
+import CleanerVideoPlayer from './CleanerVideoPlayer'
+
 import gsap from 'gsap'
 import { IoIosClose } from 'react-icons/io'
 
@@ -26,7 +28,8 @@ function Box() {
       className='fixed bottom-24 right-4 lg:right-[80px] w-[92%] lg:w-[320px] h-[600px] bg-black rounded-2xl z-50 flex flex-col justify-center items-center gap-4 p-0 text-center text-white'
       ref={ref}
     >
-      <video
+      <CleanerVideoPlayer />
+      {/* <video
         className='h-full w-full filter brightness-125 object-cover rounded-xl bg-black'
         loop
         autoPlay
@@ -37,7 +40,7 @@ function Box() {
         height='100%'
         poster={'/video/intro.avif'}
         src={'video/intro.mp4'}
-      />
+      /> */}
     </motion.div>
   )
 }

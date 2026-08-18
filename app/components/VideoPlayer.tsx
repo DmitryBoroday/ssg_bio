@@ -57,7 +57,7 @@ export default function VideoPlayer() {
         loop autoPlay /* muted */
         ref={videoRef}
       >
-        <source src='video/React.mp4' />
+        <source src='/video/React.mp4' type='video/mp4' />
       </video>
     </div>
   )
