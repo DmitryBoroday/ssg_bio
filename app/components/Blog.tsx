@@ -7,8 +7,8 @@ export default function Blog() {
         <article className='py-24 w-5/6 mx-auto flex flex-col'>
             <p className='text-4xl text-gray-200 font-bold mb-4'>Blog</p>
             <p className='text-gray-400 mb-4'>Tech Talks</p>
-            <h4 className='text-gray-200 text-lg lg:text-xl font-bold lg:font-normal'>
-                Following the latest trends as the world of web development is constantly evolving, we design, create, and optimize websites and applications in response to customers needs, technological advancements, and the demands of the growing industry, which is changing rapidly, dictating new trends that are very exciting and have a great future! So, the industry is growing, and we have a lot of work to do... At the end of the day, we got a lot to wrap our heads around! Mobile-First approach with Accelerated Mobile Pages (AMP) powered by AI-Chatbots and Push Notifications or PWAs with Voice сontrol. The API-first approach, Serverless Architecture with Static Website Generators took place. With the help of TypeScript and new Meta-Framworks like NextJS, we have a lot of interesting jobs to do!
+            <h4 className='text-gray-200 text-lg lg:text-xl font-bold lg:font-normal lg:w-3/4'>
+                The modern web environment requies a balance between rapid evolution and architectural stability. I focus on building reliable systems using type-safe frameworks like TypeScript, optimized Serverless/Edge infrastructures, and API-first architectures. Rather than chasing passing design trends, I invest in code maintainability, strict automated testing CI/CD, deep database indexing, and core web vitals. Software engineering is not just about making code work - it is about ensuring code remains performant, readable, and scalable years down the line.
             </h4>
             <Link href='/blog' className='py-2 px-4 bg-indigo-400 w-fit flex items-center justify-center gap-4 mt-8 rounded-md font-bold hover:bg-cyan-400 transition-all'>
                 Blog Topics<FaLongArrowAltRight />

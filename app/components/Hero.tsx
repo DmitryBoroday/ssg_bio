@@ -9,21 +9,18 @@ export default function Hero() {
     return (
         <section className='heroBg'>
             <div className='flex lg:flex-row flex-col-reverse items-start lg:items-center py-24 lg:py-32 w-5/6 mx-auto'>
-                <article className='w-full lg:w-2/3'>
+                <article className='w-full lg:w-2/3 lg:pr-24'>
                     <h1 className='text-5xl lg:text-7xl font-bold py-4'>
                         <span className='text-indigo-300 w-2/3'>Hi, I'm Dmitry,</span>
                         <br />
                         <span className='font-bold text-4xl lg:text-6xl'>
-                            a Software Engineer
+                            a Senior Full-Stack Engineer
                         </span>
                     </h1>
-                    <h2 className='text-lg font-bold text-gray-200'>I build full-stack production-ready performant web applications, with a focus on clean architecture end performance</h2>
+                    <h2 className='text-lg font-bold text-gray-200'>I design and deploy scalable, performant web applications with a strict focus on clean architecture, type safety, and system optimization.</h2>
                     <a href='/files/cv.pdf' download>
                         <h2 className='bg-indigo-400 w-fit font-bold felx flex row items-center justify-end hover:bg-indigo-500 transition-all p-2 mt-8 rounded-md'>Download Full CV <IoIosArrowRoundDown size={20} /></h2>
                     </a>
-                    {/* <Link href='/video' className='py-2 px-4 bg-indigo-400 w-fit flex items-center justify-center gap-4 mt-8 rounded-md font-bold hover:bg-cyan-400 transition-all'>
-                        Intro to React<RxVideo size={20} />
-                    </Link> */}
                 </article>
                 <img
                     src='/images/me_.jpg'

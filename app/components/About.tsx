@@ -23,8 +23,9 @@ export default function About() {
             <p className='text-gray-400 mb-4'>Stack & My Story</p>
             <div className='flex lg:flex-row flex-col justify-center lg:items-center gap-12'>
                 <div className='lg:w-1/2'>
-                    <h3 className='text-gray-200 text-lg lg:text-xl font-bold lg:font-normal lg:text-start'>Hey everyone! I start coding in 2019 building web apps for private clients using JavaScript technologies... I comfortable with React ecosystem aka <span>
-                        <a href='https://www.mongodb.com/resources/languages/mern-stack' target='_blank'><span className='text-blue-300 font-bold hover:text-gray-400'>MERN</span></a></span> stack end proven patterns, that did well in production. Clean architecture and a well-chosen stack, suitable for each specific project is what makes clients happy with a final result! As you can see from my core stack - I prioritize predictable, battle-tested design patterns and robust architecture over unnecessary abstractions.</h3>
+                    <h3 className='text-gray-200 text-lg lg:text-xl font-bold lg:font-normal lg:text-start'>I am Independent Software Engineer and Consultant with 6 years of experience delivering high-impact, full-stack solutions for businesses. I specialize in React and Node.js ecosystem <span>
+                        <a href='https://www.mongodb.com/resources/languages/mern-stack' target='_blank'><span className='text-blue-300 font-bold hover:text-gray-400'>MERN</span></a></span> / <span>
+                            <a href='https://nextjs.org/' target='_blank'><span className='text-blue-300 font-bold hover:text-gray-400'>Next.js</span></a>. </span>My approach prioritizes predictable, battle-tested design patterns, robust system architecture, and optimized data layers over unnecessary abstractions. I bridge the gap between complex technical execution and business objectives, ensuring applications are reliable, secure, and build to scale under heavy production loads.</h3>
                     <Link href='/video' className='py-2 px-4 bg-indigo-400 w-fit flex items-center justify-center gap-4 mt-8 rounded-md font-bold hover:bg-cyan-400 transition-all'>
                         Intro to React<RxVideo size={20} />
                     </Link>
