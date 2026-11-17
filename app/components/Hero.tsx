@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
             <nav className='absolute top-8 left-8 flex items-center gap-4 border-l-8 border-green-400 pl-2'>
                 <a
-                    href='https://www.linkedin.com/in/dmitry-borodai-7b90b5423/'
+                    href='https://www.linkedin.com/in/dmitry-boroday-7b90b5423/'
                     target='_blank'
                     className='hover:animate-spin'
                 >
